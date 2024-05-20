@@ -8,14 +8,21 @@ body {
     justify-content: center;
     align-items: center;
     background-color: hsl(30, 38%, 92%);
-    height: 90vh;
+    height: 100vh;
+}
+
+.disk_img {
+    width: 50%;
+    height:100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px 0 0 10px;
 }
 
 .main_card {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* align-items: center; */
     width: 500px;
     height: 400px;
     margin: 0;
@@ -92,38 +99,35 @@ button {
 
 }
 
-.disk_img {
-    width: 50%;
-    height:100%;
-    margin: 0;
-    padding: 0;
-    border-radius: 10px 0 0 10px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .mobile_img {
     display: none;
+}
+
+@media (max-width: 600px) {
+    .main_card {
+        width: 90vw;
+        height: auto;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        /* padding-bottom: 1em; */
+    }
+    .mobile_img {
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .disk_img {
+        display: none;
+    }
+
+    .info_card {
+        padding: 1.2em;
+    }
+    
 }
 
 
