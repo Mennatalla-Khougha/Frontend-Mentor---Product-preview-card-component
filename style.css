@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 38%, 92%);
+    height: 90vh;
+}
+
+.main_card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+    width: 500px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.info_card {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7em;
+}
+
+.title {
+    font-family: "Montserrat";
+    color: hsl(228, 12%, 48%);
+    text-transform: uppercase;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: "Fraunces";
+    padding: 0;
+    margin: 0;
+}
+
+.desc {
+    font-family: "Montserrat";
+    color: hsl(228, 12%, 48%);
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+
+.prices {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.price_bold {
+    font-family: "Fraunces";
+    font-weight: bold;
+    font-size: x-large;
+    color: hsl(158, 36%, 37%);
+    margin: 0;
+    padding: 0;
+}
+
+.price_normal {
+    font-family: "Fraunces";
+    /* font-size: large; */
+    color: hsl(228, 12%, 48%);
+    margin: 0;
+    padding: 0;
+    text-decoration: line-through;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    font-family: "Montserrat";
+    background-color:hsl(158, 36%, 37%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.7em 1em;
+    cursor: pointer;
+
+}
+
+.disk_img {
+    width: 50%;
+    height:100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px 0 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mobile_img {
+    display: none;
+}
+
+
